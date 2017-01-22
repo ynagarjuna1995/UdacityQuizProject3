@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="io.github.ynagarjuna1995.udacityquiz.QuizScreen.QuizScreenActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q1TitleQuestion" />
+
+            <EditText
+                android:id="@+id/answer_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/LRMargin"
+                android:layout_marginRight="@dimen/LRMargin"
+                android:hint="@string/Q1Hint"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q2TitleText" />
+
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/LRMargin"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q2_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2Option1"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q2_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2Option2"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q2_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2Option3"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q2_option_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2Option4"
+                    android:textSize="@dimen/textSize" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3TitleText" />
+
+            <CheckBox
+                android:id="@+id/cboption_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/Q3Chbox1"
+                android:textSize="@dimen/textSize" />
+
+            <CheckBox
+                android:id="@+id/cboption_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/Q3Chbox2"
+                android:textSize="@dimen/textSize" />
+
+            <CheckBox
+                android:id="@+id/cboption_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/Q3Chbox3"
+                android:textSize="@dimen/textSize" />
+
+            <CheckBox
+                android:id="@+id/cboption_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/Q3Chbox4"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q4TitleText" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/LRMargin"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q4_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q4Option1"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q4_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q4Option2"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q4_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q4option3"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q4_option_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q4Option4"
+                    android:textSize="@dimen/textSize" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/CustomSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q5TitleText" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/LRMargin"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q5_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q5option1"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q5_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q5Option2"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q5_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q5Option3"
+                    android:textSize="@dimen/textSize" />
+
+                <RadioButton
+                    android:id="@+id/q5_option_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q5OPtion4"
+                    android:textSize="@dimen/textSize" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/submitButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="GO"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

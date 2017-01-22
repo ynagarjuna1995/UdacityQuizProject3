@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UdacityQuiz</string>
+    <string name="instructionsTitle">Instructons</string>
+    <string name="instructionsMessage">1. The quiz consists of 5 questions.\n2. 20 points awarded for each correct answer.\n3. No points for wrong answer.\n4. Unanswered questions will be counted as incorrect.\n5. There are three possible question types:\n  a. Multiple Choice\n  b. Only one correct answer.\n  c. Type in the answer.</string>
+    <string name="Q1TitleQuestion">Who is most recent Former President of USA ?</string>
+    <string name="Q1Hint">Obama/Clinton</string>
+    <string name="Q2TitleText">What is the maximum tenure for US presidential Candidate ?</string>
+    <string name="Q2Option1">2</string>
+    <string name="Q2Option2">4</string>
+    <string name="Q2Option3">No Limit</string>
+    <string name="Q2Option4">None of the Above</string>
+    <string name="Q3TitleText">Who are the Former Presidents of the USA ?</string>
+    <string name="Q3Chbox1">Obama</string>
+    <string name="Q3Chbox2">Bill Clinton</string>
+    <string name="Q3Chbox3">George Bush</string>
+    <string name="Q3Chbox4">Donald J Trump</string>
+    <string name="Q4TitleText">What is the full form of ATM?</string>
+    <string name="Q4Option1">Any time Mariguana</string>
+    <string name="Q4Option2">Any time Money</string>
+    <string name="Q4option3">All Time Mad</string>
+    <string name="Q4Option4">Automated Teller Machine</string>
+    <string name="Q5TitleText">who is the President of India</string>
+    <string name="Q5option1">Sonia Gandhi</string>
+    <string name="Q5Option2">Narendra Modi</string>
+    <string name="Q5Option3">Pranab Mukarjee</string>
+    <string name="Q5OPtion4">Man Mohan Singh</string>
+</resources>

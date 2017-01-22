@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.ynagarjuna1995.udacityquiz.mainScreen.MainScreenActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/QuizLogo"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/QuizLogo"
+        android:layout_height="wrap_content"
+        android:id="@+id/SectionQuizzesTaken"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Number of Quizzes Taken"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SetNumberOfQuizzesTaken"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SectionCorrectAnswer"
+        android:layout_below="@id/SectionQuizzesTaken"
+        android:paddingTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Number of Correct Answers"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SetNumberOfCorrectAns"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SectionBestScores"
+        android:layout_below="@id/SectionCorrectAnswer"
+        android:paddingTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Best Score"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SetBestScores"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="000" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startQuiz"
+        android:layout_alignParentBottom="true"
+        android:text="Start QUIZ"
+
+        />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
